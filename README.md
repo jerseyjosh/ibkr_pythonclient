@@ -1,3 +1,5 @@
+# ibkr_pythonclient
+
 A couple of things/definitions/conventions:
 * a *low level message* is some data prefixed with its size
 * a *high level message* is a list of fields separated by the NULL character; the fields are all strings; the message ID is the first field, the come others whose number and semantics depend on the message itself
@@ -58,6 +60,3 @@ python3 setup.py bdist_wheel
 * you can use this to install the wheel
 
 python3 -m pip install --user --upgrade dist/ibapi-9.75.1-py3-none-any.whl
-
-
-# ibkr_pythonclient
